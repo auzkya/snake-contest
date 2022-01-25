@@ -36,6 +36,7 @@ class AI:
 
     if self.fields[row][col] != '': return True
     if self.fields[row][col] != 'f': return True
+    if self.fields[row][col] != 'h': return True
     else: return False
   
   #def circle(self, row, col):
